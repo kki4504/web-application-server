@@ -15,7 +15,10 @@
 * 각 요구사항을 구현하는 것이 중요한 것이 아니라 구현 과정을 통해 학습한 내용을 인식하는 것이 배움에 중요하다. 
 
 ### 요구사항 1 - http://localhost:8080/index.html로 접속시 응답
-* 
+* BufferedReader
+  * InputStream -> InputStreamReader -> BufferedReader
+  * 텍스트 라인을 읽고, \n를 치기 전까지 모든 텍스트를 저장
+  * return String
 
 ### 요구사항 2 - get 방식으로 회원가입
 * 
